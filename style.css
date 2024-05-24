@@ -47,10 +47,30 @@ body {
     gap: 10px;
 }
 
-.dashboard-logo svg {
-    fill: white;
+#dashboard-icon {
     height: 36px;
     width: auto;
+}
+
+.sidebar svg {
+    fill: white;
+    height: 20px;
+    width: auto;
+}
+
+ul {
+    padding: 10px;
+}
+
+ul>li {
+    list-style-type: none;
+    display: grid;
+    font-size: 20px;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
 }
 
 .panel {
@@ -75,12 +95,6 @@ body {
     align-self: center;
 }
 
-.menu ul {
-    display: grid;
-    gap: 20px;
-    list-style-type: none;
-    padding-left: 20px;
-}
 
 .icon {
     width: 20px;
