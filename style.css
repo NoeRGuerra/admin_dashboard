@@ -118,7 +118,7 @@ ul>li {
     padding: 10px 0;
 }
 
-.panel {
+.main-content {
     background-color: #e2e8f0;
     grid-column: 2 / 7;
     grid-row: 2 / 6;
@@ -127,7 +127,7 @@ ul>li {
     gap: 15px;
 }
 
-.panel .card {
+.main-content .card {
     background-color: white;
     color: #8a8a8a;
     border-left: 5px solid #f0b429;
