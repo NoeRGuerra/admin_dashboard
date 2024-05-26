@@ -33,14 +33,11 @@ body {
 
 .header :nth-child(2) {
     justify-self: end;
+    align-self: center;
 }
 
 .button-group {
     grid-column: 2 / 5;
-    grid-row: 2 / 3;
-}
-
-.greeting {
     grid-row: 2 / 3;
 }
 
@@ -50,6 +47,29 @@ body {
     align-self: center;
     font-size: 18px;
     font-weight: bold;
+}
+
+.greeting {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.greeting .text {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    align-self: center;
 }
 
 .sidebar {
@@ -141,6 +161,7 @@ input[type=text] {
     border-radius: 100%;
     width: 50px;
     height: 50px;
+    align-self: center;
 }
 
 .small-pfp {
@@ -170,12 +191,6 @@ button {
     width: 100px;
     height: 35px;
     border: none;
-}
-
-.button-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
 }
 
 .title {
