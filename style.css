@@ -12,15 +12,15 @@ body {
     font-family: sans-serif;
 }
 
-.header {
+header {
     background-color: white;
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 7fr 1fr 1fr 1fr;
 }
 
-.header p,
-.header button {
+header p,
+header button {
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ body {
     display: flex;
 }
 
-.header :nth-child(2) {
+header :nth-child(2) {
     justify-self: end;
     align-self: center;
 }
