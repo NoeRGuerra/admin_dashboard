@@ -208,3 +208,25 @@ button {
     height: 35px;
     border: none;
 }
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.announcement {
+    padding: 20px
+}
+
+.announcement::first-line {
+    font-weight: bold;
+    font-size: 18px;
+}
+
