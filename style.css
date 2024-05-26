@@ -230,3 +230,27 @@ button {
     font-size: 18px;
 }
 
+.trending {
+    display: flex;
+    flex-direction: column;
+}
+
+.trends {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: grid;
+    align-items: center;
+    color: rgb(62, 62, 62);
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-flow: column;
+}
+
+.trend-text::first-line {
+    color: black;
+}
